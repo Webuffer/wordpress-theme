@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div>
+<div class="row">
 	<div class="span8">
 		<h1><?php _e('blog archive'); ?><?php echo get_the_date('F Y'); ?></h1>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

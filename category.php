@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div>
+<div class="row">
 	<div class="span8">
 		<!-- single_cat_title() 不可放在循环中 -->
 		<h1><?php single_cat_title(); ?></h1>

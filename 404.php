@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div>
+<div class="row">
 	<div class="span8">
 		<h2><?php _e('404 - no found'); ?></h2>
 		<?php get_search_form(); ?>

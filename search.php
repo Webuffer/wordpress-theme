@@ -1,10 +1,10 @@
 <?php get_header(); ?>
-<div>
+<div class="row">
 	<div class="span8">
 		<h1><?php _e('search result'); echo ':'.get_search_query(); ?></h1>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-			// 显示文字摘要
+			<!-- 显示文字摘要 -->
 			<?php the_excerpt(); ?>
 		<?php endwhile; else: ?>
 		
