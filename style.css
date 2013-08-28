@@ -202,13 +202,6 @@ input[type="submit"] {
 .menu-item a{
 	display: block;
 	padding: 12px 12px;
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-.menu-item a:hover{
-	text-decoration: none;
-	border-left: 1px solid #f76d22;
-	border-right: 1px solid #f76d22;
 }
 /* = main
 ------------------------------------------------- */

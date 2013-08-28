@@ -16,10 +16,11 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<div class="navbar">
-		<div class="navbar-inner">
-			<a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
-			<?php wp_nav_menu(); ?>
-		</div>
-	</div>
 	<div class="container">
+		<header class="navbar">
+			<h1><a href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+			<h2><?php bloginfo('description'); ?></h2>
+			<div class="navbar-inner">
+				<?php wp_nav_menu(); ?>
+			</div>
+		</header>
